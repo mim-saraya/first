@@ -1,0 +1,50 @@
+@media only screen and (min-width: 320px) {
+    h1{
+        color: tomato;
+    }
+
+@media only screen and (min-width: 768px) {
+    h1{
+        color: lightcoral;
+    }
+}
+.container{
+    max-width: 1010px;
+    padding: 5px;
+    background-color: ivory;
+    min-height: 100vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+body{
+    background-color: rgb(60,42,42);
+    text-align: center;
+}
+.gallery{
+    max-width: 800px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.gallery-item{
+    border: 1px solid rgb(25, 77, 94);
+    border-radius: 8px;
+    width: 280px;
+    justify-content: space-between;
+    margin: 15px;
+    min-height: 250px;
+    flex-direction: column;
+    display: flex;
+    padding: 10px;
+}
+.gallery-item figcaption {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+#gallery-search{
+    width: 500px;
+    flex-grow: 1;
+}
